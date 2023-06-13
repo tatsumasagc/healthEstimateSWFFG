@@ -2,7 +2,7 @@
 	"name": "healthEstimateSwffg",
 	"title": "Health Estimate Star Wars FFG",
 	"description": "Gives players ability to see approximate health status of a token",
-	"version": "2.5.0",
+	"version": "2.5.1",
 	"authors": "Shylight",
 	"scripts": [
 		"./lib/chroma.min.js",
@@ -60,8 +60,8 @@
     "minimum": "0.5.0",
     "verified": "0.7.9"
   }
-	"url": "https://github.com/prolice/healthEstimateSwffg",
-	"manifest": "https://raw.githubusercontent.com/Shylight/healthEstimate/master/src/module.json",
-	"download": "https://github.com/prolice/healthEstimateSwffg/archive/healthEstimateSwffg.zip",
+	"url": "https://github.com/tatsumasagc/healthEstimateSWFFG",
+	"manifest": "https://raw.githubusercontent.com/tatsumasagc/healthEstimateSWFFG/master/dist/module.json",
+	"download": "https://github.com/tatsumasagc/healthEstimateSWFFG/blob/master/package/healthEstimate-v2.5.1.zip",
 	"license": "https://choosealicense.com/licenses/mit/"
 }
