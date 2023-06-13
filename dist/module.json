@@ -62,6 +62,6 @@
   }
 	"url": "https://github.com/tatsumasagc/healthEstimateSWFFG",
 	"manifest": "https://raw.githubusercontent.com/tatsumasagc/healthEstimateSWFFG/master/dist/module.json",
-	"download": "https://github.com/tatsumasagc/healthEstimateSWFFG/blob/master/package/healthEstimate-v2.5.1.zip",
+	"download": "https://github.com/tatsumasagc/healthEstimateSWFFG/blob/master/package/healthEstimateSWFFG-v2.5.1.zip",
 	"license": "https://choosealicense.com/licenses/mit/"
 }
