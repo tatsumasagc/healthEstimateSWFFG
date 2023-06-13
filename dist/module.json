@@ -1,9 +1,9 @@
 {
-	"name": "healthEstimate",
-	"title": "Health Estimate",
+	"name": "healthEstimateSwffg",
+	"title": "Health Estimate Star Wars FFG",
 	"description": "Gives players ability to see approximate health status of a token",
-	"version": "2.4.0",
-	"author": "Shylight",
+	"version": "2.5.0",
+	"authors": "Shylight",
 	"scripts": [
 		"./lib/chroma.min.js",
 		"./lib/color-picker.min.js",
@@ -23,7 +23,7 @@
 			"label": "Death macro",
 			"path": "./packs/macros.db",
 			"module": "healthEstimate",
-			"entity": "Macro"
+			"type": "Macro"
 		}
 	],
 	"languages": [
@@ -53,33 +53,15 @@
 			"path": "./lang/cn.json"
 		}
 	],
-	"systems": [
-		"archmage",
-		"D35E",
-		"dungeonworld",
-		"fate",
-		"lancer",
-		"numenera",
-		"ose",
-		"pf1",
-		"pf2e",
-		"ryuutama",
-		"shadowrun5e",
-		"swade",
-		"symbaroum",
-		"twodsix",
-		"wfrp4e",
-		"worldbuilding",
-		"starfinder",
-		"dnd5e",
-		"blades-in-the-dark",
-		"foundryvtt-reve-de-dragon",
-		"uesrpg-d100"
+	"relationships.systems": [
+		"starwarsffg"
 	],
-	"minimumCoreVersion": "0.5.0",
-	"compatibleCoreVersion": "0.7.7",
-	"url": "https://github.com/Shylight/healthEstimate",
+	"compatibility": {
+    "minimum": "0.5.0",
+    "verified": "0.7.9"
+  }
+	"url": "https://github.com/prolice/healthEstimateSwffg",
 	"manifest": "https://raw.githubusercontent.com/Shylight/healthEstimate/master/src/module.json",
-	"download": "https://github.com/Shylight/healthEstimate/releases/download/2.4.0/healthEstimate-v2.4.0.zip",
+	"download": "https://github.com/prolice/healthEstimateSwffg/archive/healthEstimateSwffg.zip",
 	"license": "https://choosealicense.com/licenses/mit/"
 }
